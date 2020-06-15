@@ -1,0 +1,42 @@
+/* Basic setup strat*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif, 'Open Sans', sans-serif;
+    height: 3000px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+
+/*     font-family: 'Lato', sans-serif;
+
+    font-family: 'Open Sans', sans-serif; */
