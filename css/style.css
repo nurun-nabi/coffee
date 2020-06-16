@@ -9,7 +9,8 @@ body {
     font-family: 'Lato', sans-serif, 'Open Sans', sans-serif;
     height: 3000px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -35,6 +36,281 @@ p {
 .clear {
     overflow: hidden;
 }
+
+/* header and brand area design state */
+.header-area {
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    height: 880px;
+    position: relative;
+}
+
+.header-area:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(66, 60, 68, 0.7);
+    background-size: cover;
+
+
+}
+
+.navbar {
+    position: relative;
+    z-index: 100;
+
+}
+
+.menu {
+    text-align: right;
+
+}
+
+.menu ul li {
+    padding: 0 10px;
+}
+
+.menu ul li a {
+    color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+
+
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+    border: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border: none;
+}
+
+.navbar-toggler-icon i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.banner-text {
+    color: #ffffff;
+    position: relative;
+    z-index: 100;
+}
+
+.banner-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: initial;
+    padding-top: 200px;
+}
+
+.banner-text h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    text-transform: initial;
+    padding-bottom: 30px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    padding: 25px 90px;
+    background-color: #30788b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 300px;
+
+}
+
+/* header and brand area design end */
+/* coffee area design start */
+.coffee-area {
+    padding: 100px 0;
+}
+
+.coffee-area .icon i {
+    font-size: 25px;
+    color: #30788b;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #221f1f;
+    border-radius: 50%;
+    text-align: center;
+    padding: 30px;
+}
+
+.apptop-text h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 8px 0;
+    position: relative;
+}
+
+.apptop-text h4::after {
+    position: absolute;
+    content: '';
+    width: 99px;
+    height: 1px;
+    background: #f57365;
+    left: 35%;
+    top: 86%;
+}
+
+.apptop-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: initial;
+}
+
+/* .app-image img{
+    position: absolute;
+    top: 30px;
+    bottom:2px;
+} */
+/* coffee  area design end */
+/* app area design start */
+.app-area {
+    background: #f0eeee;
+    padding-top: 120px;
+}
+
+.appcontent h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 18;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.appcontent h3::after {
+    position: absolute;
+    content: '';
+    width: 99px;
+    height: 1px;
+    background: #f57365;
+    left: 0%;
+    top: 91%;
+}
+
+.appcontent p {
+    padding-bottom: 8px;
+}
+
+.slider {
+    background: url(../img/slider.jpg);
+    padding: 80px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -60px;
+}
+
+.slider:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 48, 53, 0.8);
+    background-size: cover;
+
+}
+
+.slider-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    position: relative;
+    z-index: 100;
+    left: 40%;
+}
+
+.image-slide {
+    position: relative;
+    z-index: 100;
+}
+
+.slider-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 0;
+    position: relative;
+    z-index: 100;
+}
+
+.slider-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    z-index: 100;
+
+}
+
+.slick-dots {
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    position: absolute;
+    bottom: -43px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    line-height: 14px;
+}
+
+.slick-dots li button {
+    color: transparent;
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50%;
+    line-height: 12px;
+    opacity: 0;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
 
 
 /*     font-family: 'Lato', sans-serif;
