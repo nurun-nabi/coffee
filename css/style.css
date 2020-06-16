@@ -219,7 +219,7 @@ p {
 
 .slider {
     background: url(../img/slider.jpg);
-    padding: 80px 0;
+    padding: 100px 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -310,6 +310,31 @@ p {
 .slick-dots li.slick-active button {
     opacity: 1;
 }
+/* around me area start */
+.around-area{
+    padding: 70px 0;
+}
+.around-text h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.coffee-addr{
+    
+}
+.coffee-addr ul li:first-child{
+    background: #2497b6;
+    padding: 3px 6px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    font-size: 14px;
+
+}
+/* around me area end */
 
 
 
