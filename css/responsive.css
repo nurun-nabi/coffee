@@ -1,22 +1,187 @@
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
- 
-}
+@media (max-width: 575.98px) {}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+
+    .header-area {
+        height: 690px;
+
+    }
+
+    .banner-text h2 {
+        font-size: 70px;
+
+    }
+
+    .banner-text h3 {
+        padding-top: 130px;
+    }
+
+    .banner-text a {
+        padding: 15px 70px;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-bottom: 150px;
+    }
+
+    .coffee-area {
+        padding: 55px 0;
+    }
+
+    .coffee-area .icon i {
+        font-size: 25px;
+        width: 70px;
+        height: 70px;
+        padding: 21px;
+    }
+
+    .apptop-text h4 {
+        font-size: 16px;
+    }
+
+    .apptop-text p {
+        font-size: 12px;
+    }
+
+    .apptop-text h4::after {
+        width: 108px;
+        height: 1px;
+        left: 14%;
+        top: 86%;
+    }
+
+    .appcontent h3 {
+        font-size: 17px !important;
+        padding-top: 15px !important;
+    }
+
+    .appcontent p {
+        font-size: 10px;
+        margin-bottom: 0;
+        padding-bottom: 5px;
+    }
+
+    .appcontent img {
+        margin-right: 20px;
+    }
+
+    .app-area {
+        padding-top: 65px;
+    }
+
+    .appcontent h3 {
+        padding-top: 49px;
+
+    }
+
+    .slider {
+        padding: 55px 0 85px 0;
+
+    }
+
+    .slider-text h3 {
+        font-size: 19px;
+        padding: 10px 0;
+
+    }
+
+    .slider-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .slider-text p {
+        font-size: 15px;
+
+    }
+
+    .slick-dots li {
+        margin-right: 6px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #ffffff;
+        line-height: 10px;
+    }
+
+    /* around area */
+    .around-area {
+        padding: 50px 0;
+    }
+
+    .around-text h4 {
+        padding-bottom: 60px;
+    }
+
+    .add-design {
+        font-size: 18px;
+    }
+
+    .addr-centent {
+        font-size: 7px;
+    }
+
+    .one-design {
+        font-size: 17px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .add-right h4 {
+        font-size: 20px !important;
+    }
+
+    .addr-centent {
+        font-size: 11px;
+    }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+
+    .appcontent h3 {
+        font-size: 16px;
+    }
+
+    .appcontent p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .appcontent img {
+        margin-right: 20px;
+    }
+
+    .app-area {
+        padding-top: 65px;
+    }
+
+    .appcontent h3 {
+        padding-top: 49px;
+
+    }
+
+    .add-design {
+        font-size: 18px;
+    }
+
+    .one-design {
+        font-size: 17px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .add-right h4 {
+        font-size: 20px !important;
+    }
+
+    .addr-centent {
+        font-size: 11px;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-   
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
